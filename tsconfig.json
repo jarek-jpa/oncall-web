@@ -14,5 +14,9 @@
 
     // Include module source maps for debugging
     "sourceMap": true
-  }
+  },
+  // node_modules are implictly excluded by tsc now, but let's make it crystal clear here
+  "include": [
+    "src"
+  ]
 }
