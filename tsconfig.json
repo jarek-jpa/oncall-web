@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+
     // Allow importing like `import React from 'react'`
     "allowSyntheticDefaultImports": true,
 
@@ -13,7 +15,9 @@
     "lib": ["es2015", "dom", "dom.iterable"],
 
     // Include module source maps for debugging
-    "sourceMap": true
+    "sourceMap": true,
+
+    "strictNullChecks": true
   },
   // node_modules are implictly excluded by tsc now, but let's make it crystal clear here
   "include": [
